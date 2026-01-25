@@ -117,11 +117,3 @@ Koden allokerer og deallokerer noder korrekt. For å verifisere at det ikke er m
 valgrind --leak-check=full ./linked_list
 ```
 
-## Filstruktur
-
-| Fil | Beskrivelse |
-|-----|-------------|
-| `linked_list.f95` | Modul med typer og prosedyrer |
-| `main.f95` | Driverprogram som demonstrerer funksjonalitet |
-| `PRD.md` | Kravspesifikasjon |
-| `README.md` | Denne filen |
