@@ -38,13 +38,13 @@ sudo dnf install gcc-gfortran
 
 **Alt-i-ett:**
 ```bash
-gfortran -std=f95 -Wall -Wextra -o linked_list linked_list.f95 main.f95
+gfortran -std=f95 -Wall -Wextra -o linked_list linked_list.f90 main.f90
 ```
 
 **Separate steg:**
 ```bash
-gfortran -std=f95 -Wall -Wextra -c linked_list.f95
-gfortran -std=f95 -Wall -Wextra -c main.f95
+gfortran -std=f95 -Wall -Wextra -c linked_list.f90
+gfortran -std=f95 -Wall -Wextra -c main.f90
 gfortran -o linked_list linked_list.o main.o
 ```
 
